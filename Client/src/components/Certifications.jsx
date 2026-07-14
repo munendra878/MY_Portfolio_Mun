@@ -7,14 +7,14 @@ export default function Certifications() {
       title: "Social Media Intern",
       company: "RealThreadX",
       description: "Internship Completion Certificate",
-      file: "/assets/Baghel Munendrasinh Radheshyam.pdf",
+      file: "/assets/Baghel Munendrasinh Radheshyam.png",
     },
     {
       id: "02",
       title: "Full Stack Developer Internship",
       company: "BrainyBeam Info Tech Pvt. Ltd.",
       description: "Internship Completion Certificate",
-      file: "/assets/Baghel Munendrasinh Radheshyam on going certificate.png",
+      file: "/assets/Baghel Munendrasinh Radheshyam on going certificate.pdf",
     },
     {
       id: "03",
