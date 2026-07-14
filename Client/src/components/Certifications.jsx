@@ -14,7 +14,7 @@ export default function Certifications() {
       title: "Full Stack Developer Internship",
       company: "BrainyBeam Info Tech Pvt. Ltd.",
       description: "Internship Completion Certificate",
-      file: "/assets/Baghel Munendrasinh Radheshyam on going certificate.pdf",
+      file: "/assets/Baghel Munendrasinh Radheshyam on going certificate.png",
     },
     {
       id: "03",
