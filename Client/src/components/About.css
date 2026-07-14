@@ -1,0 +1,133 @@
+.about-section {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background Glow */
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: #ff4d6d;
+  filter: blur(180px);
+  top: -120px;
+  left: -100px;
+  opacity: .35;
+}
+
+.about-section::after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: #00d4ff;
+  filter: blur(180px);
+  bottom: -120px;
+  right: -100px;
+  opacity: .30;
+}
+
+.about-container {
+  max-width: 1250px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  text-align: center;
+  color: #cbd5e1;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.about-card {
+  backdrop-filter: blur(18px);
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.35);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 25px;
+}
+
+.glass-card {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.15);
+  backdrop-filter: blur(15px);
+  border-radius: 18px;
+  padding: 25px;
+  transition: .4s;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,.13);
+  box-shadow: 0 15px 35px rgba(0,0,0,.3);
+}
+
+.glass-card h3 {
+  color: #60a5fa;
+  margin-bottom: 18px;
+  font-size: 22px;
+}
+
+.glass-card p {
+  color: #e2e8f0;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.skills span {
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.2);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  transition: .3s;
+}
+
+.skills span:hover {
+  background: #3b82f6;
+  transform: scale(1.05);
+}
+
+@media(max-width:768px){
+
+.about-title{
+    font-size:2.2rem;
+}
+
+.about-card{
+    padding:25px;
+}
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+}

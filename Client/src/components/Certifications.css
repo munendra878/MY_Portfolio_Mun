@@ -1,0 +1,195 @@
+/* ===========================
+   Certifications Section
+=========================== */
+
+.certifications-section {
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #181818, #2a1d1d);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background Glow */
+
+.certifications-section::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: rgba(255, 0, 90, 0.18);
+  border-radius: 50%;
+  top: -120px;
+  left: -120px;
+  filter: blur(120px);
+}
+
+.certifications-section::after {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: rgba(0, 140, 255, 0.18);
+  border-radius: 50%;
+  bottom: -120px;
+  right: -120px;
+  filter: blur(120px);
+}
+
+.section-title {
+  text-align: center;
+  color: #fff;
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+
+/* ===================
+ Grid
+=================== */
+
+.certifications-grid {
+  max-width: 1250px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 35px;
+  position: relative;
+  z-index: 2;
+}
+
+/* ===================
+ Glass Card
+=================== */
+
+.cert-card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  border-radius: 25px;
+
+  padding: 35px;
+
+  transition: .45s;
+
+  box-shadow:
+  0 8px 30px rgba(0,0,0,.25);
+}
+
+.cert-card:hover {
+  transform: translateY(-12px);
+
+  border-color: rgba(255,255,255,.3);
+
+  box-shadow:
+  0 20px 45px rgba(0,0,0,.35);
+}
+
+/* Number */
+
+.cert-number {
+
+  width:60px;
+  height:60px;
+
+  border-radius:50%;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background:linear-gradient(135deg,#ff4d6d,#ff9a44);
+
+  color:white;
+
+  font-size:22px;
+
+  font-weight:bold;
+
+  margin-bottom:25px;
+}
+
+/* Title */
+
+.cert-card h3{
+
+  color:white;
+
+  font-size:24px;
+
+  margin-bottom:10px;
+}
+
+/* Company */
+
+.cert-card h4{
+
+  color:#ffc857;
+
+  margin-bottom:18px;
+
+  font-weight:600;
+
+  font-size:18px;
+}
+
+/* Description */
+
+.cert-card p{
+
+  color:#dddddd;
+
+  line-height:1.7;
+
+  margin-bottom:30px;
+
+  font-size:15px;
+}
+
+/* Button */
+
+.cert-btn{
+
+display:inline-block;
+
+padding:12px 26px;
+
+border-radius:50px;
+
+background:linear-gradient(135deg,#ff4d6d,#ff9a44);
+
+color:white;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+}
+
+.cert-btn:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 10px 25px rgba(255,77,109,.4);
+}
+
+/* ====================
+ Responsive
+==================== */
+
+@media(max-width:768px){
+
+.section-title{
+font-size:2.2rem;
+}
+
+.cert-card{
+padding:28px;
+}
+
+}
