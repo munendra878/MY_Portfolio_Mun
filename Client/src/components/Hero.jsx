@@ -44,7 +44,7 @@ export default function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <a className="btn" href="assets/Resume.pdf" download>
+            <a className="btn" href="assets/Resume1.pdf" download>
               Download Resume
             </a>
 
