@@ -5,7 +5,7 @@ const projects = [
     title: "AI Design Studio",
     image: "/assets/projects/logoai.png",
     description:
-      "A modern drawing and collaboration application featuring intuitive drawing tools and a responsive user experience.",
+      "AI Design Studio is an AI-powered MERN web application that generates invitations, posters, logos, and social media designs from user prompts. It allows users to customize, save, and download AI-generated designs.",
     live: "https://ai-design-studio-m-sigma.vercel.app/",
     github: "https://github.com/munendra878/AI-Design-Studio-M",
   },
