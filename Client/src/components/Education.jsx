@@ -14,7 +14,7 @@ export default function Education() {
           <h3>Master of Computer Applications (MCA)</h3>
           <span className="duration">2024 – 2026</span>
           <p className="institution">Ganpat University</p>
-          <p><strong>CGPA:</strong> 8.90</p>
+          <p><strong>CGPA:</strong> 8.12</p>
           <p>
             Relevant coursework: Cloud Computing, Advanced Programming,
             Data Science, Artificial Intelligence, and Software Engineering.
